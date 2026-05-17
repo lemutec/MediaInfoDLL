@@ -4,7 +4,7 @@
         <targetframeworks>net462;net472;net48;netstandard2.0;netstandard2.1</targetframeworks>
         <LangVersion>latest</LangVersion>
         <AssemblyName>MediaInfoDLL</AssemblyName>
-        <PackageVersion>26.1.0-beta1</PackageVersion>
+        <PackageVersion>26.1.0</PackageVersion>
         <AssemblyVersion>26.1.0</AssemblyVersion>
         <FileVersion>26.1.0</FileVersion>
         <Version>$(VersionPrefix)26.1.0</Version>
