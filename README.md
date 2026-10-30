@@ -1,12 +1,19 @@
-[![NuGet](https://img.shields.io/nuget/v/MediaInfoDLL.svg)](https://nuget.org/packages/MediaInfoDLL) [![Actions](https://github.com/lemutec/MediaInfoNet/actions/workflows/library.nuget.yml/badge.svg)](https://github.com/lemutec/MediaInfoNet/actions/workflows/library.nuget.yml) [![Platform](https://img.shields.io/badge/platform-Windows-blue?logo=windowsxp&color=1E9BFA)](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime)
+> [!WARNING]
+> **This package is obsolete and this repository is archived.**
+>
+> Please migrate to **[QuickLook.MediaInfo](https://www.nuget.org/packages/QuickLook.MediaInfo)** instead.
+>
+> **Why archived:** `MediaInfoDLL` is no longer maintained. Ongoing MediaInfo .NET packaging and updates continue under `QuickLook.MediaInfo`. New projects should depend on that package; existing consumers should migrate when convenient.
 
-# MediaInfoDLL
+[![NuGet](https://img.shields.io/nuget/v/QuickLook.MediaInfo.svg)](https://www.nuget.org/packages/QuickLook.MediaInfo) [![Platform](https://img.shields.io/badge/platform-Windows-blue?logo=windowsxp&color=1E9BFA)](https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime)
+
+# MediaInfoDLL (obsolete)
 
 Minimal MediaInfo .NET APIs wrapped from [MediaArea.net](https://mediaarea.net/en/MediaInfo/Download/Windows).
 
-Support for Windows Vista, 7, 8, 10, 11 with x86, x64, ARM64.
+> Historical note: this package previously supported Windows Vista, 7, 8, 10, 11 with x86, x64, and ARM64. Prefer [QuickLook.MediaInfo](https://www.nuget.org/packages/QuickLook.MediaInfo) for current usage.
 
-## Usage
+## Usage (legacy)
 
 1. Provide the Media Inform.
 
@@ -60,7 +67,7 @@ Console.WriteLine(bitRate);
 4. [QuickLook](https://github.com/QL-Win/QuickLook) for [WPF](https://github.com/dotnet/wpf) Application.
 5. [LyricStudio](https://github.com/lemutec/LyricStudio) for [Avalonia](https://github.com/AvaloniaUI/Avalonia) Application.
 
-## Runtimes
+## Runtimes (legacy)
 
 How to include the all `MediaInfo.dll` runtime native libraries in `.csproj`:
 
